@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-import random
 import os
+import random
 if os.name != "nt":
     import readline
 
@@ -183,3 +183,4 @@ while inp != "e":
         print(f"Winner: {winner[0]}")
     else:
         print("Draw")
+    input("Press enter to start new Deal...")
